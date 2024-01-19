@@ -36,17 +36,17 @@
 # print_add3(5)
 # print_add3([5,6])
 # print_add3()
-# print_add3("omkar")
-# print_add3({"k1":"omkar", "k2":"Sanskruti"})
+# print_add3("OK")
+# print_add3({"k1":"OK", "k2":"SG"})
 
 # ------------------------------
 
-# def print_a_names(names):
-#     for name in names:
-#         print(name)
-#         if name.startswith("A"): 
-#             print("🅰️ name startwith A")
-#         else: print("❎ name not start with A")        
-# print_a_names(["Omkar", "Sanskruti", "Amkar"])
+def print_a_names(names):
+    for name in names:
+        print(name)
+        if name.startswith("A"): 
+            print("🅰️ name startwith A")
+        else: print("❎ name not start with A")        
+print_a_names(["OK", "SG", "AR"])
 
 # ------------------------------
